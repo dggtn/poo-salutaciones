@@ -20,4 +20,12 @@ public class PruebaSaludo {
 		
 		Assert.assertEquals("Hola Sergio", saludo.obtener());
 	}
+	
+	@Test
+	public void obtenerParaLaSraGarcia() {
+		
+		Saludo saludo = new SaludoFormal("Señora García");
+		
+		Assert.assertEquals("Buenos días Señora García", saludo.obtener());
+	}
 }
