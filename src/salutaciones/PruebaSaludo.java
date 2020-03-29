@@ -28,4 +28,13 @@ public class PruebaSaludo {
 		
 		Assert.assertEquals("Buenos días Señora García", saludo.obtener());
 	}
+	
+	@Test
+	public void obtenerParaVirginiaQueCumpleAnios() {
+		
+		Saludo saludo = new SaludoDeCumpleanios("Virginia");
+		
+		Assert.assertEquals("Feliz cumpleaños Virginia, que pases un lindo día", 
+							saludo.obtener());
+	}
 }
