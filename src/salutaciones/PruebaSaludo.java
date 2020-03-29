@@ -8,7 +8,7 @@ public class PruebaSaludo {
 	@Test
 	public void obtenerParaMarina() {
 		
-		Saludo saludo = new Saludo("Marina");
+		Saludo saludo = new SaludoInformal("Marina");
 		
 		Assert.assertEquals("Hola Marina", saludo.obtener());
 	}
@@ -16,7 +16,7 @@ public class PruebaSaludo {
 	@Test
 	public void obtenerParaSergio() {
 		
-		Saludo saludo = new Saludo("Sergio");
+		Saludo saludo = new SaludoInformal("Sergio");
 		
 		Assert.assertEquals("Hola Sergio", saludo.obtener());
 	}

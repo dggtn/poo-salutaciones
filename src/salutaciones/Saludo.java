@@ -1,16 +1,13 @@
 package salutaciones;
 
-public class Saludo {
+public abstract class Saludo {
 
-	private String nombre;
+	protected String nombre;
 	
 	public Saludo(String nombre) {
 		
 		this.nombre = nombre;
 	}
 	
-	public String obtener() {
-		
-		return "Hola " + nombre;
-	}
+	public abstract String obtener();
 }
