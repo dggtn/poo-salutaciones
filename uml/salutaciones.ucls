@@ -3,13 +3,26 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="salutaciones.Saludo" project="poo-salutaciones" 
     file="/poo-salutaciones/src/salutaciones/Saludo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="76" width="92" x="41" y="37"/>    
+    <position height="-1" width="-1" x="104" y="79"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
+  <class id="2" language="java" name="salutaciones.SaludoInformal" project="poo-salutaciones" 
+    file="/poo-salutaciones/src/salutaciones/SaludoInformal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="61" width="124" x="41" y="153"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="3">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
